@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/escape-game">
+  <a href="https://github.com/lurgurbal/escape-game">
     <img src="https://img.shields.io/badge/Repository-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0B1020&color=4CC9F0" alt="GitHub Repository" />
   </a>
   <a href="YOUR_DEMO_LINK">
@@ -27,10 +27,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/escape-game?style=social" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/YOUR_USERNAME/escape-game?style=social" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/issues/YOUR_USERNAME/escape-game" alt="Open issues" />
-  <img src="https://img.shields.io/github/license/YOUR_USERNAME/escape-game" alt="License" />
+  <img src="https://img.shields.io/github/stars/lurgurbal/escape-game?style=social" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/lurgurbal/escape-game?style=social" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/lurgurbal/escape-game" alt="Open issues" />
+  <img src="https://img.shields.io/github/license/lurgurbal/escape-game" alt="License" />
 </p>
 
 ---
@@ -261,7 +261,7 @@ This architecture keeps the game logic centralized in PHP while preserving a cle
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/escape-game.git
+git clone https://github.com/lurgurbal/escape-game.git
 cd escape-game
 ```
 
@@ -445,19 +445,19 @@ See the [LICENSE](LICENSE) file for full details.
 ## Author
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Developer-YOUR_NAME-0D1117?style=for-the-badge&labelColor=0B1020&color=7DD3FC" alt="Developer name" />
+  <img src="https://img.shields.io/badge/Developer-Lurgur%20Bal-0D1117?style=for-the-badge&labelColor=0B1020&color=7DD3FC" alt="Developer name" />
 </p>
 
-- Name: YOUR_NAME
-- Role: Full Stack Developer / Web Developer / Student Developer
-- Education: YOUR_EDUCATION_OR_FIELD
-- GitHub: https://github.com/YOUR_USERNAME
+- Name: Lurgur Bal
+- Role: Full Stack Developer / Web Developer
+- Education: Computer Science / Web Development
+- GitHub: https://github.com/lurgurbal
 
 ---
 
 <p align="center">
   <strong>Escape Game</strong><br />
-  A science-driven puzzle experience built for curious minds.
+  A science-driven puzzle experience built for curious minds. 
 </p>
 
 <p align="center">
