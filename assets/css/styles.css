@@ -1,0 +1,150 @@
+/* Variables de couleurs */
+:root {
+    --primary: #6C5CE7;
+    --primary-dark: #5649BE;
+    --secondary: #00CEFF;
+    --background: #6363f7;
+    --card-bg: #0051fe;
+    --text: #2D3436;
+    --text-light: #636E72;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Reset et polices */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    margin: 2rem 0 3rem;
+    font-size: 2.5rem;
+    color: var(--primary);
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    margin: 1rem auto 0;
+    border-radius: 2px;
+}
+
+/* Conteneur des modes */
+.modes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+/* Carte de mode */
+.mode-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mode-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.mode-card h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.mode-card p {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.mode-card small {
+    display: block;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    background: linear-gradient(to right, var(--primary), var(--primary-dark));
+    color: rgb(0, 92, 250);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, var(--primary-dark), var(--primary));
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+}
+
+/* Séparateur stylisé */
+.separator {
+    text-align: center;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.separator::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    z-index: -1;
+}
+
+.separator span {
+    background: var(--background);
+    padding: 0 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .modes-container {
+        grid-template-columns: 1fr;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
