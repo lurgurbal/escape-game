@@ -1,7 +1,7 @@
 # Escape Game
 
 <p align="center">
-  <img src="YOUR_PROJECT_IMAGE" width="1120" alt="Escape Game banner" />
+  <img src="image.png" width="1120" alt="Bannière Escape Game" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <strong>A science-fiction inspired escape room experience built with PHP, MySQL, and modern web interfaces.</strong>
+  <strong>Une expérience de jeu d’évasion inspirée de la science-fiction, conçue avec PHP, MySQL et des interfaces web modernes.</strong>
 </p>
 
 <p align="center">
@@ -35,67 +35,67 @@
 
 ---
 
-## Overview
+## Aperçu
 
-Escape Game is a web-based puzzle adventure where players progress through a sequence of scientific riddles, unlock levels, and solve a narrative-driven challenge in a futuristic laboratory setting. The application combines gameplay mechanics, profile tracking, role-based access, and an admin dashboard in a single PHP/MySQL project.
+Escape Game est une aventure web de type escape room où les joueurs progressent à travers une série d’énigmes scientifiques, débloquent des niveaux et résolvent un défi narratif dans un laboratoire futuriste. L’application combine le gameplay, le suivi de profil, les droits d’accès selon les rôles et un tableau de bord administrateur dans un seul projet PHP/MySQL.
 
-The project was designed to provide:
+Le projet a été conçu pour offrir :
 
-- a complete escape room flow with progression and score tracking
-- multiple game modes and difficulty-based logic
-- a structured authentication and session system
-- an admin dashboard for monitoring activity and game data
-- a reusable architecture for adding new enigmas and gameplay rules
+- un parcours complet d’évasion avec progression et suivi des scores
+- plusieurs modes de jeu et une logique de difficulté
+- un système d’authentification et de sessions structuré
+- un tableau de bord administrateur pour surveiller les activités et les données du jeu
+- une architecture réutilisable pour ajouter de nouvelles énigmes et règles de jeu
 
-The primary technical goals are to create a clean, modular and maintainable application using server-side PHP logic, structured database access, secure sessions, and a user-friendly frontend.
+Les objectifs techniques principaux sont de créer une application propre, modulaire et maintenable en utilisant une logique PHP côté serveur, une base de données structurée, des sessions sécurisées et une interface frontend conviviale.
 
 ---
 
-## Features
+## Fonctionnalités
 
 <div align="center">
   <table>
     <tr>
       <td width="50%" valign="top">
-        <h3>Player Experience</h3>
+        <h3>Expérience joueur</h3>
         <ul>
-          <li>Login and registration flow</li>
-          <li>Progressive game levels and puzzle logic</li>
-          <li>Multiple game modes and difficulty settings</li>
-          <li>User profile and statistics tracking</li>
-          <li>Answer validation and feedback system</li>
+          <li>Flux de connexion et d’inscription</li>
+          <li>Niveaux progressifs et logique d’énigmes</li>
+          <li>Plusieurs modes de jeu et niveaux de difficulté</li>
+          <li>Suivi du profil utilisateur et des statistiques</li>
+          <li>Système de validation des réponses et de retour utilisateur</li>
         </ul>
       </td>
       <td width="50%" valign="top">
         <h3>Administration</h3>
         <ul>
-          <li>Admin dashboard and role access checks</li>
-          <li>Player activity and log monitoring</li>
-          <li>Ability to manage roles and game states</li>
-          <li>Audit-oriented logging support</li>
-          <li>Structured project modularization</li>
+          <li>Tableau de bord admin et contrôles d’accès</li>
+          <li>Suivi de l’activité des joueurs et des logs</li>
+          <li>Gestion des rôles et des états du jeu</li>
+          <li>Support de journalisation orienté audit</li>
+          <li>Modularisation structurée du projet</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <h3>Backend Logic</h3>
+        <h3>Logique backend</h3>
         <ul>
-          <li>PHP-based business logic and database abstraction</li>
-          <li>Session-aware authentication lifecycle</li>
-          <li>CSRF token generation and validation support</li>
-          <li>Input sanitization and validation practices</li>
-          <li>Reusable game function modules</li>
+          <li>Logique métier PHP et abstraction base de données</li>
+          <li>Cycle de vie des sessions avec gestion de l’authentification</li>
+          <li>Support de génération et validation des jetons CSRF</li>
+          <li>Pratiques de nettoyage et validation des entrées</li>
+          <li>Modules de fonctions réutilisables pour le jeu</li>
         </ul>
       </td>
       <td width="50%" valign="top">
-        <h3>Scalability</h3>
+        <h3>Évolutivité</h3>
         <ul>
-          <li>Independent game modules and puzzle files</li>
-          <li>Simple integration of new enigmas</li>
-          <li>Expandable script and admin architecture</li>
-          <li>Clear project directory organization</li>
-          <li>Support for local and hosted deployment</li>
+          <li>Modules de jeu indépendants et fichiers d’énigmes séparés</li>
+          <li>Ajout simple de nouvelles énigmes</li>
+          <li>Architecture de scripts et d’admin extensible</li>
+          <li>Organisation claire du dépôt</li>
+          <li>Compatibilité avec le déploiement local ou distant</li>
         </ul>
       </td>
     </tr>
@@ -104,10 +104,10 @@ The primary technical goals are to create a clean, modular and maintainable appl
 
 ---
 
-## Preview
+## Aperçu visuel
 
 <p align="center">
-  <img src="YOUR_PROJECT_IMAGE" width="800" alt="Project preview" />
+  <img src="YOUR_PROJECT_IMAGE" width="800" alt="Aperçu du projet" />
 </p>
 
 <p align="center">
@@ -122,7 +122,7 @@ The primary technical goals are to create a clean, modular and maintainable appl
 
 ---
 
-## Project Structure
+## Structure du projet
 
 ```text
 escape-game/
@@ -171,18 +171,18 @@ escape-game/
 └── LICENSE
 ```
 
-### Key directories
+### Dossiers importants
 
-- `admin/` contains administration interfaces and role management tools.
-- `includes/` holds global configuration, database logic, authentication, and helper functions.
-- `enigmes/` stores puzzle content and level-specific logic.
-- `assets/` contains styling and frontend scripts.
-- `logs/` manages logging and trace configuration.
-- `escape_game.sql` is the schema and baseline project data file.
+- `admin/` contient les interfaces d’administration et les outils de gestion des rôles.
+- `includes/` regroupe la configuration globale, la logique de base de données, l’authentification et les fonctions utilitaires.
+- `enigmes/` contient le contenu des puzzles et la logique spécifique aux niveaux.
+- `assets/` contient les styles et les scripts frontend.
+- `logs/` gère la configuration et la journalisation.
+- `escape_game.sql` est le schéma de base et le fichier de données de départ du projet.
 
 ---
 
-## Tech Stack
+## Stack technique
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
@@ -193,14 +193,14 @@ escape-game/
   <img src="https://img.shields.io/badge/Apache-2.4-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />
 </p>
 
-### Core technologies
+### Technologies principales
 
-- PHP for server-side logic and session handling
-- MySQL for persistence and game data
-- HTML for page structure and game layout
-- CSS for visual design and responsive styling
-- JavaScript for light browser interactivity
-- Apache / local web server environment for running the app
+- PHP pour la logique serveur et la gestion des sessions
+- MySQL pour la persistance des données du jeu
+- HTML pour la structure des pages et la mise en page
+- CSS pour le design visuel et le rendu responsive
+- JavaScript pour les petites interactions côté navigateur
+- Apache / environnement local de serveur web pour exécuter l’application
 
 ---
 
@@ -244,65 +244,65 @@ escape-game/
 +-----------------------+
 ```
 
-This architecture keeps the game logic centralized in PHP while preserving a clear separation between presentation, authentication, and persistence.
+Cette architecture centralise la logique du jeu dans PHP tout en gardant une séparation claire entre la présentation, l’authentification et la persistance des données.
 
 ---
 
 ## Installation
 
-### Prerequisites
+### Prérequis
 
 - PHP 8.x
-- MySQL 8.x or compatible MariaDB
-- Apache or another local PHP server
-- A modern browser
+- MySQL 8.x ou MariaDB compatible
+- Apache ou un serveur PHP local
+- Un navigateur moderne
 - Git
 
-### Clone the repository
+### Cloner le dépôt
 
 ```bash
 git clone https://github.com/lurgurbal/escape-game.git
 cd escape-game
 ```
 
-### Configure the database
+### Configurer la base de données
 
-1. Create a MySQL database.
-2. Import the project schema:
+1. Créez une base de données MySQL.
+2. Importez le schéma du projet :
 
 ```bash
 mysql -u your_user -p your_database < escape_game.sql
 ```
 
-3. Update the connection settings in the configuration files under `includes/`.
+3. Mettez à jour les paramètres de connexion dans les fichiers de configuration dans `includes/`.
 
-Typical configuration values include:
+Les valeurs de configuration typiques incluent :
 
-- database host
-- database name
-- database user
-- database password
-- application base path
+- l’hôte de la base de données
+- le nom de la base de données
+- l’utilisateur de la base de données
+- le mot de passe
+- le chemin de base de l’application
 
-### Local setup
+### Configuration locale
 
-If using XAMPP or a local Apache environment:
+Si vous utilisez XAMPP ou un environnement Apache local :
 
-1. Place the project folder in your web root, such as `C:/xampp/htdocs/escape-game`.
-2. Start Apache and MySQL.
-3. Open the application in your browser:
+1. Placez le dossier du projet dans votre dossier web, par exemple `C:/xampp/htdocs/escape-game`.
+2. Démarrez Apache et MySQL.
+3. Ouvrez l’application dans votre navigateur :
 
 ```text
 http://localhost/escapegame
 ```
 
-### Launch
+### Lancer le projet
 
 ```bash
 php -S localhost:8000
 ```
 
-Then access:
+Puis accédez à :
 
 ```text
 http://localhost:8000
@@ -310,154 +310,154 @@ http://localhost:8000
 
 ---
 
-## Usage
+## Utilisation
 
-After launching the project:
+Après le lancement du projet :
 
-1. Register a user account or log in.
-2. Navigate through the available game modes.
-3. Solve the puzzle chain to unlock the next level.
-4. Proceed through each challenge until completion.
-5. Check your profile and results after each session.
+1. Créez un compte utilisateur ou connectez-vous.
+2. Parcourez les modes de jeu disponibles.
+3. Résolvez la suite d’énigmes pour débloquer le niveau suivant.
+4. Poursuivez chaque défi jusqu’à la fin.
+5. Consultez votre profil et vos résultats après chaque session.
 
-### Main application pages
+### Pages principales de l’application
 
-- `welcome.php`: entry point and welcome flow
-- `login.php`: authentication page
-- `register.php`: account creation
-- `modes.php`: available game modes
-- `index.php`: main game progression
-- `quiz.php` and `quiz_results.php`: quiz-driven gameplay and outcomes
-- `profile.php`: user progress and gameplay summary
-- `admin/dashboard.php`: admin controls and monitoring
-
----
-
-## Development
-
-The project uses a simple but structured server-side architecture. Developers can extend the game by adding new puzzle logic, updating admin tools, or introducing additional gameplay modes.
-
-### Recommended workflow
-
-1. Keep business logic in `includes/`
-2. Use dedicated puzzle files in `enigmes/`
-3. Keep UI styling in `assets/css/`
-4. Prefer reusable functions instead of duplicating logic
-5. Validate all user input before database interaction
-6. Test authentication, session states, and navigation flows after every major change
-
-### Important files
-
-- `includes/auth.php`: authentication, login flow, session logic, and session hardening
-- `includes/database.php`: database connection setup
-- `includes/GameFunctions.php`: gameplay core logic
-- `includes/config.php`: configuration values
-- `escape_game.sql`: schema and initial database definitions
-- `admin/dashboard.php`: administrative management interfaces
+- `welcome.php` : page d’accueil et point d’entrée
+- `login.php` : page de connexion
+- `register.php` : création de compte
+- `modes.php` : modes de jeu disponibles
+- `index.php` : progression principale du jeu
+- `quiz.php` et `quiz_results.php` : quiz et résultats du jeu
+- `profile.php` : suivi du profil et de la progression
+- `admin/dashboard.php` : contrôles et supervision administrateur
 
 ---
 
-## Roadmap
+## Développement
 
-- [x] User registration and login flow
-- [x] Session-based access control
-- [x] Game progression and level-based logic
-- [x] Admin dashboard scaffolding
-- [x] Role-related access checks
-- [x] Puzzle structure and multiple challenge pages
-- [ ] Improved responsive UI polish
-- [ ] More advanced game analytics
-- [ ] Expanded admin management tools
-- [ ] Additional game modes and content packs
-- [ ] Modular JSON or database-driven enigmas
-- [ ] Better automated testing coverage
-- [ ] Final deployment hardening and performance review
+Le projet repose sur une architecture côté serveur simple mais structurée. Les développeurs peuvent l’étendre en ajoutant de nouvelles logiques d’énigmes, en améliorant les outils d’administration ou en introduisant de nouveaux modes de jeu.
 
----
+### Workflow recommandé
 
-## Security
+1. Gardez la logique métier dans `includes/`
+2. Utilisez des fichiers dédiés aux énigmes dans `enigmes/`
+3. Conservez le style visuel dans `assets/css/`
+4. Privilégiez les fonctions réutilisables plutôt que la duplication
+5. Validez toutes les entrées utilisateur avant les interactions avec la base de données
+6. Testez l’authentification, les sessions et la navigation après chaque modification majeure
 
-This project includes several security-oriented practices in its current implementation, but they should be reviewed and extended for production deployment.
+### Fichiers importants
 
-### Included considerations
-
-- password hashing with PHP `password_hash()`
-- session initialization with secure cookie settings
-- role-based access checks for admin features
-- login attempt tracking logic
-- input validation and sanitization in key flows
-- session regeneration after login
-
-### Important notes
-
-- Do not expose sensitive credentials in public files or client-side scripts.
-- Use strong database credentials in production.
-- Keep server software, PHP, and MySQL updated.
-- Review all database queries before deployment.
-- For production use, add additional protections such as:
-  - HTTPS enforcement
-  - stricter CSRF validation on all state-changing actions
-  - rate-limiting
-  - environment-based configuration separation
-  - application logging and alerting
-
-> Security is layered and should be treated as an ongoing maintenance task rather than a one-time setup.
+- `includes/auth.php` : authentification, connexion, logique de session et sécurisation
+- `includes/database.php` : configuration de la connexion à la base de données
+- `includes/GameFunctions.php` : logique principale du gameplay
+- `includes/config.php` : valeurs de configuration
+- `escape_game.sql` : schéma et définitions initiales de la base de données
+- `admin/dashboard.php` : interfaces de gestion administrative
 
 ---
 
-## Contributing
+## Feuille de route
 
-Contributions are welcome. To contribute:
+- [x] Flux d’inscription et de connexion utilisateur
+- [x] Contrôle d’accès basé sur les sessions
+- [x] Progression du jeu et logique par niveaux
+- [x] Structure du tableau de bord administrateur
+- [x] Vérifications d’accès selon les rôles
+- [x] Structure des énigmes et plusieurs pages de défis
+- [ ] Amélioration du design responsive
+- [ ] Analytique plus avancée du jeu
+- [ ] Outils d’administration plus complets
+- [ ] Modes de jeu et packs de contenu supplémentaires
+- [ ] Énigmes modulaires basées sur JSON ou base de données
+- [ ] Meilleure couverture de tests automatisés
+- [ ] Renforcement final du déploiement et revue de performance
 
-1. Fork the repository
-2. Create a feature branch:
+---
+
+## Sécurité
+
+Ce projet intègre plusieurs pratiques orientées sécurité dans son implémentation actuelle, mais elles doivent être vérifiées et renforcées avant tout déploiement en production.
+
+### Éléments déjà présents
+
+- hachage des mots de passe avec PHP `password_hash()`
+- initialisation des sessions avec des cookies sécurisés
+- contrôles d’accès selon les rôles pour les fonctionnalités admin
+- logique de suivi des tentatives de connexion
+- validation et nettoyage des entrées dans les flux clés
+- régénération de session après connexion
+
+### Points importants
+
+- Ne pas exposer les identifiants sensibles dans des fichiers publics ou dans le code côté client.
+- Utiliser des mots de passe robustes pour la base de données en production.
+- Maintenir à jour le serveur, PHP et MySQL.
+- Vérifier toutes les requêtes SQL avant le déploiement.
+- En environnement de production, ajouter des protections supplémentaires comme :
+  - la mise en place de HTTPS
+  - une validation CSRF plus stricte sur toutes les actions modifiant l’état
+  - la limitation des tentatives et du débit
+  - une séparation de configuration selon l’environnement
+  - la journalisation et l’alerte applicative
+
+> La sécurité est multi-couches et doit être traitée comme une tâche continue, pas comme une étape unique.
+
+---
+
+## Contribuer
+
+Les contributions sont les bienvenues. Pour participer :
+
+1. Forkez le dépôt
+2. Créez une branche de fonctionnalité :
 
 ```bash
-git checkout -b feature/your-feature-name
+git checkout -b feature/nom-de-votre-fonctionnalite
 ```
 
-3. Commit your changes:
+3. Validez vos changements :
 
 ```bash
-git commit -m "Add your feature"
+git commit -m "Ajout de votre fonctionnalité"
 ```
 
-4. Push to your fork:
+4. Poushez vers votre fork :
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/nom-de-votre-fonctionnalite
 ```
 
-5. Open a Pull Request on GitHub
+5. Ouvrez une Pull Request sur GitHub
 
-Before submitting changes, make sure the project still runs locally and that your updates do not break existing gameplay or authentication behavior.
+Avant de soumettre des modifications, vérifiez que le projet fonctionne toujours localement et que vos changements ne cassent pas le gameplay ou l’authentification existante.
 
 ---
 
-## License
+## Licence
 
-This project is licensed under the MIT License.
+Ce projet est sous licence MIT.
 
-See the [LICENSE](LICENSE) file for full details.
+Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-## Author
+## Auteur
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Developer-Lurgur%20Bal-0D1117?style=for-the-badge&labelColor=0B1020&color=7DD3FC" alt="Developer name" />
+  <img src="https://img.shields.io/badge/Developer-Lurgur%20Bal-0D1117?style=for-the-badge&labelColor=0B1020&color=7DD3FC" alt="Nom du développeur" />
 </p>
 
-- Name: Lurgur Bal
-- Role: Full Stack Developer / Web Developer
-- Education: Computer Science / Web Development
-- GitHub: https://github.com/lurgurbal
+- Nom : lurgurbal
+- Rôle : Développeur Full Stack / Développeur Web
+- Formation : Informatique / Développement Web
+- GitHub : https://github.com/lurgurbal
 
 ---
 
 <p align="center">
   <strong>Escape Game</strong><br />
-  A science-driven puzzle experience built for curious minds. 
+  Une expérience de puzzle scientifique pensée pour les esprits curieux.
 </p>
 
 <p align="center">
